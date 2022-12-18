@@ -1,5 +1,5 @@
 # Plant Pot
-A demonstration of using a Seeed Studio XIAO nRF52840 device to generate location beacons that droids will react to.
+A demonstration of using a [Seeed Studio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) device to generate location beacons to which droids will react. This code works on both the XIAO nrf52840 and the XIAO nrf52840 Sense.
 
 # Operation
 On startup a droid location beacon is generated. A new beacon, with a randomly selected location, is generated every 2 minutes. You can change this interval by altering the value of BEACON_LIFE in the source code. The on-board RGB LED will change color to represent the current location beacon being emitted.
